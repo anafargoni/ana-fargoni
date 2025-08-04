@@ -5,6 +5,9 @@ body{
 .container-body{
     background-color: #b8ddf7;
     width: 100%;
+    margin: 0;
+    margin-bottom: -3rem;
+    padding: 0;
 }
 
 .navbar{
