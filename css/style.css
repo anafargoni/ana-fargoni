@@ -114,12 +114,25 @@ flex-basis: 400px
 — O tamanho inicial "base" do item, antes de crescer ou encolher.
 — Aqui, o item quer ter inicialmente 400 pixels de largura (no caso de um flex container em linha).*/
 
-.cards-portifolio{
+.card-servicos {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-portifolio {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10rem;
+    gap: 1.5rem;
     margin: 0 auto;
+}
+
+.card-portifolio{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-portifolio:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
 .card{
